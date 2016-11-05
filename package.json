@@ -1,0 +1,16 @@
+{
+  "name": "elmlive-sketchapi",
+  "version": "1.0.0",
+  "description": "Following along elmlive @ach4 Sketch API",
+  "main": "index.js",
+  "author": "'Rolograaf' <'Rolograaf@gmail.com'>",
+  "license": "MIT",
+  "dependencies": {
+    "elm-live": "^2.6.0"
+  },
+  "scripts": {
+    "test": "elm-test || true",
+    "test-init" : "./node_modules/.bin/elm-test init",
+    "elm-live": "./node_modules/.bin/elm-live Main.elm --open"
+  }
+}
