@@ -17,7 +17,7 @@ main =
     Sketch.scene backGroundColor
         (Sketch.rectangle
             { width = Sketch.random lineLen (lineLen + 70)
-            , height = Sketch.always 30
+            , height = Sketch.always 3
             , color =
                 Sketch.hsla
                     (Sketch.random 200 400)
@@ -26,4 +26,7 @@ main =
                     (Sketch.random 0.0 0.4)
             }
             |> Sketch.rotate (Sketch.random -0.5 0.5)
+            |> Sketch.move
+                (Sketch.random -200 200)
+                (Sketch.random -200 200)
         )
