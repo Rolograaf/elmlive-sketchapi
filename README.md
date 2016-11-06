@@ -8,7 +8,7 @@ thanks Aaron!
 
 Today we try to reproduce a Processing sketch and create an Elm API for easily making graphical sketches in Elm.
 
-![Random shapes](random-shapes.jpg)
+![Random shapes](random-shapes.jpg) ![final Random Shapes ](random-shapes2.jpg)
 
 Original code is at [github](https://github.com/avh4-experimental/elm-graphics/tree/ElmLive-2016-10-30)
 
